@@ -1,0 +1,126 @@
+body{
+    margin: 0%;
+    display: grid;
+    width: 100%;
+    grid-template-areas: "head  head"
+                          "nav   nav"
+                          "aside  section"
+                          "foot  foot";
+    grid-template-rows: 80px 40px 400px 1fr;
+    grid-template-columns: 1fr 25%;
+}
+header{grid-area: head;
+    border: 2px solid;
+    color: white;
+    background-color: rgb(81, 145, 219);
+    font-weight: bold;
+}
+nav{grid-area: nav;
+    border: 2px;
+    background-color: rgb(81, 145, 219);
+    font-style: italic;
+}
+main{grid-area: main;
+    border: 2px solid;
+    border-color: rgb(212, 212, 212);
+    font-style: italic;
+}
+footer{grid-area: foot;
+    display: grid;
+    width: auto;
+    height: 100%;
+    grid-template-areas: "drones  vol  propos";
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px ;
+    background-color: rgb(81, 145, 219);
+    font-style: italic;
+}
+aside{grid-area: aside;
+    font-style: italic;
+}
+section{
+    grid-area: section;
+    border: 2px solid;
+    border-top: rgb(2, 0, 0);
+    border-bottom: rgb(2, 0, 0);
+    border-right: rgb(2, 0, 0);
+    font-style: italic;
+}
+
+#center{
+    text-align: center;
+    padding: 30px;
+}
+
+#padd{
+    padding: 15px;
+    text-align: center;
+}
+
+#ui{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+#p1{
+    margin: 30px;
+    margin-left: 30%;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+h4{
+    padding: 5px;
+}
+
+#aerial{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.oeoe{
+    margin: 30px;
+    margin-left: 30%;
+}
+
+#uiui{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#left{
+    margin-left: 20%;
+
+}
+
+#centre{
+    text-align: center;
+    margin-right: 50%;
+}
+
+#right{
+    text-align: right;
+    margin-right: 50%;
+}
+
+a:link {
+    color: rgb(24, 27, 201);
+  }
+
+a:visited {
+    color: rgb(24, 27, 201);
+  }
+
+
+a:hover {
+    color: rgb(255, 255, 255);
+  }
