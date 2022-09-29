@@ -1,0 +1,60 @@
+input[type=text] {
+  padding: 7px 20px;
+  margin: 8px 0;
+  border-radius: 2px solid rgb(36, 36, 36);
+}
+
+input[type=text]:focus {
+    border-radius: 2px solid rgb(36, 36, 36);
+    background-color: lightblue;
+}
+
+
+input[type=password] {
+    padding: 7px 20px;
+    margin: 8px 0;
+    border-radius: 2px solid rgb(36, 36, 36);
+  }
+  
+  input[type=password]:focus {
+      border-radius: 2px solid rgb(36, 36, 36);
+      background-color: lightblue;
+  }
+  
+  input[type=date] {
+    padding: 7px 20px;
+    margin: 8px 0;
+    width: 170px;
+    border-radius: 2px solid rgb(36, 36, 36);
+  }
+  
+  input[type=date]:focus {
+      border-radius: 2px solid rgb(36, 36, 36);
+      background-color: lightblue;
+  }
+  
+  
+  input[type=email] {
+    padding: 7px 20px;
+    margin: 8px 0;
+    border-radius: 2px solid rgb(36, 36, 36);
+  }
+  
+  input[type=email]:focus {
+      border-radius: 2px solid rgb(36, 36, 36);
+      background-color: lightblue;
+  }
+  
+
+  input[type=submit] {
+    padding: 7px 20px;
+    margin: 8px 0;
+    border-radius: 2px solid rgb(36, 36, 36);
+    width: 215px;
+  }
+  
+  input[type=submit]:focus {
+      border-radius: 2px solid rgb(36, 36, 36);
+      background-color: lightblue;
+  }
+  
